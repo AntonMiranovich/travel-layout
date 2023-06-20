@@ -143,9 +143,77 @@ main .preview-img {
   height: 483px;
 }
 main .travel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 200px;
+}
+main .travel .section2-img {
   background-image: url(./assets/section2.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 646px;
   height: 524px;
+}
+main .travel .section2-info {
+  width: 450px;
+}
+main .travel .section2-info h1 {
+  font: 700 36px "Playfair Display";
+  color: #202336;
+  margin-bottom: 20px;
+}
+main .travel .section2-info p {
+  font: 300 17px "Inter";
+  color: #7D7987;
+  margin-bottom: 40px;
+}
+main .travel .section2-info .section2-btm {
+  background: #FB8F1D;
+  border-radius: 8px;
+  width: 180px;
+  font: 700 17px "Inter";
+  color: #FFFFFF;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #F9F9FB;
+  padding: 90px 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 340px 150px 150px 150px;
+  grid-template-columns: 340px 150px 150px 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer-block1 .logo-footer {
+  background-image: url(./assets/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 44px;
+  height: 37px;
+  margin-bottom: 20px;
+}
+footer .footer-block1 p {
+  font: 300 18px "Inter";
+  color: #7D7987;
+  margin-bottom: 20px;
+}
+footer .footer-block2 h3 {
+  font: 700 19px "Inter";
+  color: #202336;
+  margin-bottom: 20px;
+}
+footer .footer-block2 p {
+  font: 300 18px "Inter";
+  color: #7D7987;
+}
+footer .footer-block2 p:not(last-child) {
+  margin-bottom: 10px;
 }

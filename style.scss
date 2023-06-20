@@ -136,13 +136,87 @@ main {
         height: 483px;
     }
 
-    .travel{
-        background-image: url(./assets/section2.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 646px;
-        height: 524px;
+    .travel {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 200px;
+
+        .section2-img {
+            background-image: url(./assets/section2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 646px;
+            height: 524px;
+        }
+
+        .section2-info {
+
+            width: 450px;
+
+            h1 {
+                font: 700 36px 'Playfair Display';
+                color: $black-color;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font: 300 17px 'Inter';
+                color: $grey-color;
+                margin-bottom: 40px;
+            }
+
+            .section2-btm {
+                background: $orange-color;
+                border-radius: 8px;
+                width: 180px;
+                font: 700 17px 'Inter';
+                color: #FFFFFF;
+                padding: 20px 0;
+                text-align: center;
+            }
+        }
     }
 }
 
+footer {
+    background-color: #F9F9FB;
+    padding: 90px 10px;
+    display: grid;
+    grid-template-columns: 340px 150px 150px 150px;
+    justify-content: space-between;
 
+    .footer-block1 {
+        .logo-footer {
+            background-image: url(./assets/logo.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 44px;
+            height: 37px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font: 300 18px 'Inter';
+            color: $grey-color;
+            margin-bottom: 20px;
+        }
+    }
+
+    .footer-block2 {
+        h3 {
+            font: 700 19px 'Inter';
+            color: $black-color;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font: 300 18px 'Inter';
+            color: $grey-color;
+        }
+
+        p:not(last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}
