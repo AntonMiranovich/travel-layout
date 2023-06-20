@@ -73,6 +73,7 @@ main .preview {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 113px;
 }
 main .preview-form h1 {
   font: 700 64px "Playfair Display";
@@ -140,4 +141,11 @@ main .preview-img {
   background-size: contain;
   width: 506px;
   height: 483px;
+}
+main .travel {
+  background-image: url(./assets/section2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 646px;
+  height: 524px;
 }

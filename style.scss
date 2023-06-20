@@ -78,6 +78,7 @@ main {
     .preview {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 113px;
     }
 
     .preview-form {
@@ -134,4 +135,14 @@ main {
         width: 506px;
         height: 483px;
     }
+
+    .travel{
+        background-image: url(./assets/section2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 646px;
+        height: 524px;
+    }
 }
+
+
