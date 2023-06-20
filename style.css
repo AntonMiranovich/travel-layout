@@ -186,8 +186,8 @@ footer {
   padding: 90px 10px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 340px 150px 150px 150px;
-  grid-template-columns: 340px 150px 150px 150px;
+  -ms-grid-columns: 340px 150px 150px 170px;
+  grid-template-columns: 340px 150px 150px 170px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
